@@ -1,0 +1,22 @@
+{
+    "name": "crcomlib-debug",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "archive": "ch5-cli archive -p crcomlib-debug -d dist/ -o upload",
+        "prep": "npm run build && npm run archive"
+    },
+    "devDependencies": {
+        "@types/node": "^24.5.2",
+        "typescript": "~5.8.3",
+        "vite": "^7.1.7"
+    },
+    "dependencies": {
+        "@pepperdash/ch5-crcomlib-lite": "^2.10.3",
+        "eruda": "^3.4.3"
+    }
+}
