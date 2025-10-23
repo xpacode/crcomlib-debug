@@ -11,9 +11,9 @@
         "prep": "npm run build && npm run archive"
     },
     "devDependencies": {
-        "@types/node": "^24.5.2",
-        "typescript": "~5.8.3",
-        "vite": "^7.1.7"
+        "@types/node": "^24.9.1",
+        "typescript": "~5.9.3",
+        "vite": "^7.1.12"
     },
     "dependencies": {
         "@pepperdash/ch5-crcomlib-lite": "^2.10.3",
