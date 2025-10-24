@@ -7,7 +7,7 @@ let inputValue = "";
 
 const runTest = async () => {
     console.log(CrComLib.isCrestronTouchscreen());
-    await Async.timeout(1000);
+    await Async.timeout(100);
     const result = await Debug.stepJoinsAsync();
     console.log(result);
 };
