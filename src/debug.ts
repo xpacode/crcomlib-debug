@@ -51,7 +51,7 @@ const stepJoinsAsync = async (): Promise<string[]> => {
         const result = await stateBombAsync(start, end);
         chunkedResult.push(result);
         console.log("Finished chunk");
-        await Async.timeout(5000);
+        await Async.timeout(500);
     }
 
     console.log("Finished bombing");
